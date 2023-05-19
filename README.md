@@ -2,7 +2,7 @@
 Bank Simulator will serve as an online bank that will implement the options offered at a new bank
 - Create an account with the bank: `class createAccount`
     - Name, Address, Phone #, (other parameters will be ignored for this design i.e SSN)
-        - ## Assume unique hashCode means unique Account 
+        - Assume unique hashCode means unique Account 
     - Bank will provide you with a Randomized unique account #, expiration date and CSV 
     - It will have an encryption key to encode the account #
     - Allow for the User to create a Pin for their account Number
