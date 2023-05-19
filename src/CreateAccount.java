@@ -4,6 +4,7 @@ public class CreateAccount extends Customer {
         super(name, address, phone);
     }
     
+    
     public String generateAccNumber(){
         int min = 8;
         int max = 12;
@@ -17,5 +18,15 @@ public class CreateAccount extends Customer {
         return result;
     }
 
+    // Encrypt the password on the account
+    public String encryption(String accountN){
+        
+        return "";
+    }
+    // Decrypt the password on the account
+    public String decryption(String accountN){
+
+        return "";
+    }
 
 }
