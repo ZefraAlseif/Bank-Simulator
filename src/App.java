@@ -58,8 +58,8 @@ public class App {
             switch (option) {
                 case "1":
                 String name = JOptionPane.showInputDialog(frame, "Enter full Name ex. John Doe");
-                String address = JOptionPane.showInputDialog(frame, "Enter full address ex. 8460 SW 156 PL #702 Miami, FL 33193");
-                String phone = JOptionPane.showInputDialog(frame, "Enter phone number ex. 305-303-9549");
+                String address = JOptionPane.showInputDialog(frame, "Enter full address ex. ");
+                String phone = JOptionPane.showInputDialog(frame, "Enter phone number ");
                 CreateAccount temp = new CreateAccount(name,address,phone);
                 if (existAcc.isEmpty() || !existAcc.containsValue(temp)) {
                     String tempP = temp.generateAccNumber();
